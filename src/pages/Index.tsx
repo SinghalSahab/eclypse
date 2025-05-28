@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-900 text-white overflow-hidden">
+    <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* Navigation */}
       <nav className="relative z-50 px-6 py-4">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
@@ -60,7 +60,7 @@ const Index = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
                 
-                <Button variant="outline" className="border-gray-600 text-gray-300 hover:bg-gray-800 h-12 px-8 text-lg">
+                <Button variant="outline" className="border-gray-600 text-gray-300 hover:bg-black/50 h-12 px-8 text-lg">
                   <Play className="mr-2 w-5 h-5" />
                   Watch Demo
                 </Button>
@@ -117,7 +117,7 @@ const Index = () => {
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Feature Card 1 */}
-            <Card className="bg-gray-800/50 border-gray-700 hover:border-purple-500/50 transition-all duration-300 group">
+            <Card className="bg-black/50 border-gray-800 hover:border-purple-500/50 transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Zap className="w-6 h-6 text-white" />
@@ -130,7 +130,7 @@ const Index = () => {
             </Card>
             
             {/* Feature Card 2 */}
-            <Card className="bg-gray-800/50 border-gray-700 hover:border-purple-500/50 transition-all duration-300 group">
+            <Card className="bg-black/50 border-gray-800 hover:border-purple-500/50 transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Shield className="w-6 h-6 text-white" />
@@ -143,7 +143,7 @@ const Index = () => {
             </Card>
             
             {/* Feature Card 3 */}
-            <Card className="bg-gray-800/50 border-gray-700 hover:border-purple-500/50 transition-all duration-300 group">
+            <Card className="bg-black/50 border-gray-800 hover:border-purple-500/50 transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                   <Globe className="w-6 h-6 text-white" />
@@ -159,7 +159,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="relative px-6 py-20 bg-gray-800/30">
+      <section className="relative px-6 py-20 bg-black/30">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Content - Services Image */}
@@ -245,7 +245,7 @@ const Index = () => {
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
               
-              <Button variant="outline" className="border-gray-600 text-gray-300 hover:bg-gray-800 h-12 px-8 text-lg">
+              <Button variant="outline" className="border-gray-600 text-gray-300 hover:bg-black/50 h-12 px-8 text-lg">
                 Contact Sales
               </Button>
             </div>
